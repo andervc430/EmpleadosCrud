@@ -1,0 +1,10 @@
+comandos para que funcione
+
+NodeJS:
+npm init
+npm install express
+npm start
+
+Python:
+cd .\backend\
+python app.py

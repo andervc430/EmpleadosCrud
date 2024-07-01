@@ -1,0 +1,188 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, #6a11cb, #2575fc);
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    width: 100%;
+    max-width: 900px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Estilos para el encabezado */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #333;
+}
+
+/* Estilos para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+/* Grupo de entrada */
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para las etiquetas del formulario */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Icono en las etiquetas */
+label i {
+    margin-right: 5px;
+}
+
+/* Estilos para los campos de entrada del formulario */
+input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+/* Efecto hover y foco para los campos de entrada */
+input:hover, input:focus {
+    border-color: #6a11cb;
+    outline: none;
+}
+
+/* Estilos para el botón del formulario */
+button {
+    padding: 12px;
+    background-color: #6a11cb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Icono en el botón */
+button i {
+    margin-right: 8px;
+}
+
+/* Efecto hover para el botón del formulario */
+button:hover {
+    background-color: #2575fc;
+    transform: scale(1.05);
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x: auto;
+}
+
+/* Encabezados de la tabla */
+th {
+    background-color: #6a11cb;
+    color: white;
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Celdas de la tabla */
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Estilos para las filas */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Efecto hover para las filas */
+tbody tr:hover {
+    background-color: #f4f4f4;
+}
+
+
+/* Estilos para los botones de acciones */
+button.edit, button.delete {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+/* Botón de edición */
+button.edit {
+    background-color: #ffc107;
+    color: white;
+}
+
+/* Botón de eliminación */
+button.delete {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Contenedor para botones de acciones */
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Efectos hover para los botones de acciones */
+button.edit:hover {
+    background-color: #e0a800;
+}
+
+button.delete:hover {
+    background-color: #c82333;
+}
+
+
+
+
+
+
+
