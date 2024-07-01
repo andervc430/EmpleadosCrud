@@ -67,6 +67,7 @@ def update_employee(employee_id):
         # Si no se encuentra el empleado, devuelve un error 404.
         return jsonify({'error': 'Employee not found'}), 404
 
+
 @employee_blueprint.route('/employees/<int:employee_id>', methods=['DELETE'])
 def delete_employee(employee_id):
     # Elimina el empleado utilizando el servicio de empleados.
